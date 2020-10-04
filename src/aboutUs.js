@@ -1,6 +1,6 @@
 const aboutUsDisplay = (() => {
     const render = (container) => {
-        const title = document.createElement("h2");
+        const title = document.createElement("h3");
         title.textContent = "Pizza Palace have a mission"
         const paragraph = document.createElement("p");
         paragraph.textContent = "To make people aware how the real pizza taste like."
