@@ -72,20 +72,13 @@ container.appendChild(footer);
 //event listeners for modules
 aboutUs.addEventListener('click', () => {
     main.innerHTML = "";
-    main.style.cssText = "";
-    main.style.width = "800px";
-    main.style.margin = "0 auto"
     aboutUsDisplay.render(main);
 })
 menu.addEventListener('click', () => {
     main.innerHTML = "";
-    main.style.cssText = "";
-    main.style.width = "800px";
-    main.style.margin = "0 auto"
+    menuDisplay.render(main);
 })
 contact.addEventListener('click', () => {
     main.innerHTML = "";
-    main.style.cssText = "";
-    main.style.width = "800px";
-    main.style.margin = "0 auto"
+    contactDisplay.render(main);
 })
