@@ -1,1 +1,0 @@
-Restaurant Page created to train DOM manipulation, webpack and dynamic addition of web content via JavaScript
